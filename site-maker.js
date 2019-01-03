@@ -8,5 +8,5 @@ var rl = readline.createInterface({
 console.log("<h3> c912 . posts </h3>")
 
 rl.on('line', function(line){
-	console.log(`<a href="posts/${line}">${line}</a>`)
+	console.log(`<p><a href="posts/${line}">${line}</a></p>`)
 })
